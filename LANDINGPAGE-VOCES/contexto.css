@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Serif TC', serif;
+}
+
+h1{
+    font-family: 'Noto Serif TC', serif;                                          
+}
+.hero{
+    background-image: url(image/HEADER.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.textos-hero{
+    height: 500px;
+    color: #4D4646;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 15%;
+    text-shadow: 4px 5px #000;
+}
+
+.textos-hero h1{
+    font-size: 110px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* Estilos generales */
+
+.contenedor,
+.wave-contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+
+.contenedor{
+    padding: 80px 0;
+}
+.titulo{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo.left{
+    text-align: center;
+}
+
+.titulo.left-h2{
+    font-size: large;
+    text-align: center;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #4F698C;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.info1{
+    background: #A6A6A6;
+    color: #fff;
+    text-align: justify;
+}
+
+.info2{
+    background: #4D4646;
+    color: #fff;
+    text-align: justify;
+
+}
+
+.info3{
+    background-color: #000000;
+    background: ;
+    color: #fff;
+    text-align: justify;
+
+}
+
+
+@media screen and (max-width:800px){
+    .textos-hero h1{
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+    .titulo.left{
+        text-align: center;
+    }
+    .info p{
+        text-align: center;
+    }
+    
+ html{
+    scroll-behavior: smooth;
+    }
+}
